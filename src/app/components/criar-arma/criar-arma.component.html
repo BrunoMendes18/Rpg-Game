@@ -1,0 +1,17 @@
+
+<div>
+  <h2 id=texto>CREATEWEAPON</h2>
+  <h3 id="name">Name:</h3>
+  <input type="text" id="inputname" required="" [value]="nome" (input)="nome = $event.target.value" />
+  <h3 id="attack">Attack:</h3>
+  <input type="text" id="inputattack" required="" [value]="ataque" (input)="ataque = $event.target.value" />
+  <h3 id="durability">Durability:</h3>
+  <input type="text" id="inputdurability" required="" [value]="durabilidade" (input)="durabilidade = $event.target.value" />
+  <h3 id="type">WeaponType:</h3>
+  <input type="text" id="inputtype" required="" [value]="tipo" (input)="tipo = $event.target.value" />
+  <h3 id="life">Life:</h3>
+  <input type="text" id="inputlife" required="" [value]="vida" (input)="vida = $event.target.value" />
+  <button id="button" (click)="criarArma()">Create</button>
+
+
+</div>

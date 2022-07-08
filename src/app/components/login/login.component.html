@@ -1,0 +1,13 @@
+
+
+<div>
+  <h2 id=texto>LOGIN</h2>
+  <h3 id="name">Name:</h3>
+  <input type="text" id="inputname" required="" [value]="name" (input)="name = $event.target.value">
+  <h3 id="password">Password:</h3>
+  <input type="text" id="inputpassword" required="" [value]="pass" (input)="pass = $event.target.value">
+  <button id="button" (click)="login()">Login</button>
+  <img src="assets/images/pvpp.png">
+
+</div>
+

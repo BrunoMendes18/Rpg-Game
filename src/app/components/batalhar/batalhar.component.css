@@ -1,0 +1,116 @@
+#start-btn{
+  width: 10%;
+  height: 10%;
+
+  position: fixed;
+  left: 46vw;
+  top: 0vh;
+}
+
+
+#my-player{
+  position: fixed;
+  bottom: 0%;
+  left: -15%;
+}
+
+#my-player-stats{
+  position: fixed;
+  bottom: 5%;
+  left: 25%;
+
+
+  width: 15vw;
+  height: 50vh;
+
+  display: flex;
+
+  align-items: center;
+  flex-direction: column;
+
+
+}
+
+.stats{
+  color: red;
+}
+
+.message{
+  display: block;
+
+max-width: 90%;
+
+
+position: relative;
+left: 22px;
+top: 10%;
+  background:rgba(0, 0, 0, 0.75);
+  padding:10px 0px 20px 0px;
+  border:1px solid #111;
+  border-radius:4px;
+  box-shadow:0px 4px 5px rgba(0, 0, 0, 0.75);
+  text-align: center;
+}
+
+#my-enemy{
+  transform: scaleX(-1);
+  position: fixed;
+  right: -10%;
+  bottom: -3%;
+}
+
+#my-enemy-stats{
+  position: fixed;
+  bottom: 5%;
+  right: 25%;
+
+
+  width: 15vw;
+  height: 50vh;
+
+  display: flex;
+
+  align-items: center;
+  flex-direction: column;
+}
+#img1{
+  width: 400px;
+  position: relative;
+  bottom:20vh;
+  left:15vh;
+}
+#img2{
+  width: 150px;
+  position: relative;
+  bottom:20vh;
+  left:15vh;
+}
+
+#name{
+  position: relative;
+  bottom:20vh;
+}
+
+#weapon{
+  position: relative;
+  bottom:20vh;
+}
+
+#nome{
+  position: relative;
+  bottom:20vh;
+  left: 12.5vh;
+}
+
+#arma{
+  position: relative;
+  bottom:20vh;
+  left: 12.5vh;
+}
+
+#button{
+  border-radius: 50%;
+  position: relative;
+  left: 112.5vh;
+  top:50vh;
+}

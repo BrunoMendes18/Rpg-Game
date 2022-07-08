@@ -1,0 +1,48 @@
+div {
+  background-color: lightgrey;
+  width: 300px;
+  border: 5px solid grey;
+  padding: 50px;
+  margin: 140px;
+  position: relative;
+  left: 50vh;
+  border-radius: 12px;
+  height: 375px;
+  top:-12.5vh;
+}
+
+#texto{
+  position: relative;
+  top:-10vh;
+  left: 7vh;
+}
+
+#name,#attack,#intelligence,#life{
+  position: relative;
+  top:-7.5vh;
+}
+
+#inputname,#inputattack,#inputintelligence,#inputlife{
+  position: relative;
+  top: -8vh;
+}
+
+#button{
+  position: relative;
+  top:3vh;
+  left: -11.5vh;
+  width: 100px;
+  height: 35px;
+}
+
+#register{
+  position: relative;
+  top:-15vh;
+  text-align: center;
+}
+
+#img{
+  width: 300px;
+}
+
+

@@ -1,0 +1,49 @@
+div {
+  background-color: lightgrey;
+  width: 300px;
+  border: 5px solid grey;
+  padding: 50px;
+  margin: 140px;
+  position: relative;
+  left: 50vh;
+  border-radius: 12px;
+  height: 235px;
+}
+
+#texto{
+  position: relative;
+  top:-10vh;
+  left: 17.5vh;
+}
+
+#name,#password{
+  position: relative;
+  top:-7.5vh;
+}
+
+#inputname,#inputpassword{
+  position: relative;
+  top: -8vh;
+}
+
+#button{
+  position: relative;
+  top:3vh;
+  left: -11.5vh;
+  width: 100px;
+  height: 35px;
+}
+
+img{
+  width: 100px;
+  position: relative;
+  top: -26vh;
+  left: 35vh;
+}
+
+#register{
+  position: relative;
+  top:-15vh;
+  text-align: center;
+}
+

@@ -1,0 +1,15 @@
+
+<div>
+  <h2 id=texto>CREATECHARACTER</h2>
+  <h3 id="name">Name:</h3>
+  <input type="text" id="inputname" required="" [value]="nome" (input)="nome = $event.target.value" />
+  <h3 id="attack">Attack:</h3>
+  <input type="text" id="inputattack" required="" [value]="ataque" (input)="ataque = $event.target.value" />
+  <h3 id="intelligence">Intelligence:</h3>
+  <input type="text" id="inputintelligence" required="" [value]="ataque" (input)="ataque = $event.target.value" />
+  <h3 id="life">Life:</h3>
+  <input type="text" id="inputlife" required="" [value]="ataque" (input)="ataque = $event.target.value" />
+  <button id="button" (click)="criarPersonagem()">Create</button>
+
+
+</div>
